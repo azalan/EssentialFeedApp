@@ -55,7 +55,7 @@ final class URLSessionHTTPClientTests: XCTestCase {
         XCTAssertNotNil(resultErrorFor(data: anyData(), response: nonHTTPURLResponse(), error: nil))
     }
     
-    func test_getFronURL_succeedsOnHTTPUrlResponseWithData() {
+    func test_getFromURL_succeedsOnHTTPUrlResponseWithData() {
         let data = anyData()
         let response = anyHTTPURLResponse()
         
