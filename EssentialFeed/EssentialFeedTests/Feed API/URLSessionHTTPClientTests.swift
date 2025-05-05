@@ -66,7 +66,7 @@ final class URLSessionHTTPClientTests: XCTestCase {
         XCTAssertEqual(receivedValues?.response.statusCode, response.statusCode)
     }
     
-    func test_getFronURL_succeedsWithEmptyDataOnHTTPUrlResponseWithNilData() {
+    func test_getFromURL_succeedsWithEmptyDataOnHTTPUrlResponseWithNilData() {
         let response = anyHTTPURLResponse()
         
         let receivedValues = resultValuesFor(data: nil, response: response, error: nil)
